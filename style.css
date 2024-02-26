@@ -1,0 +1,28 @@
+ body {
+     background: url('fundo.jpg') no-repeat center center fixed;
+ }
+
+ form {
+     background-color: rgba(0, 0, 0, 0.8);
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     z-index: 1;
+ }
+ button {
+     transition: background-color 0.3s ease, transform 0.3s ease;
+     
+ }
+ #gaga{
+    margin-top: 10px;
+ }
+
+ button:hover {
+     background-color: #0056b3;
+     transform: scale(1.1);
+     /* Aumenta o tamanho em 10% */
+ }
+
+ #formulario {
+     color: white;
+ }
